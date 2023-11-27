@@ -1,0 +1,7 @@
+npm install --global @sanity/cli@3.4
+
+sanity init
+
+sanity manage
+
+sanity start
