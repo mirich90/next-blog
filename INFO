@@ -4,4 +4,8 @@ sanity init
 
 sanity manage
 
+перейти в папку с санити
 sanity start
+
+
+npm run dev
