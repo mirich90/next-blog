@@ -13,6 +13,7 @@ export default {
   title: 'Post',
   groups: [
     {name: 'content', title: 'Content'},
+    {name: 'header', title: 'Header'},
     {name: 'meta', title: 'Meta'},
   ],
   fields: [
@@ -28,7 +29,7 @@ export default {
       title: 'Description',
       name: 'description',
       type: 'text',
-      group: 'meta',
+      group: 'header',
       validation: (Rule) => Rule.required(),
     },
     {
@@ -43,14 +44,14 @@ export default {
       name: 'publishedDate',
       type: 'date',
       title: 'Published date',
-      group: 'meta',
+      group: 'header',
       validation: (Rule) => Rule.required(),
     },
     {
       name: 'image',
       type: 'image',
       title: 'Image',
-      group: 'meta',
+      group: 'header',
       validation: (Rule) => Rule.required(),
       options: {
         hotspot: true, // <-- Defaults to false
@@ -70,7 +71,7 @@ export default {
       name: 'slug',
       type: 'slug',
       title: 'Slug',
-      group: 'meta',
+      group: 'header',
       validation: (Rule) => Rule.required(),
       options: {
         source: 'title',
