@@ -1,11 +1,11 @@
-npm install --global @sanity/cli@3.4
-
-sanity init
-
-sanity manage
-
-перейти в папку с санити
+1. Start sanity:
+cd next_sanity_blog
 sanity start
-
-
+или
 npm run dev
+
+2. Start blog:
+npm run dev
+
+НАДО
+поменять стили
