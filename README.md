@@ -7,10 +7,10 @@
 
 ### Главная страница сайта:
 
-![Alt-текст](https://github.com/mirich90/next-blog/blob/master/1.PNG?raw=true "Блог-платформа")
+![Alt-текст](https://github.com/mirich90/next-blog/blob/main/1.PNG?raw=true "Блог-платформа")
 
 ### Админка sanity:
 
-![Alt-текст](https://github.com/mirich90/next-blog/blob/master/2.PNG?raw=true "Блог-платформа")
+![Alt-текст](https://github.com/mirich90/next-blog/blob/main/2.PNG?raw=true "Блог-платформа")
 
-![Alt-текст](https://github.com/mirich90/next-blog/blob/master/3.PNG?raw=true "Блог-платформа")
+![Alt-текст](https://github.com/mirich90/next-blog/blob/main/3.PNG?raw=true "Блог-платформа")
