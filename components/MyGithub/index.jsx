@@ -1,24 +1,24 @@
 import React from "react";
 import cl from "classnames";
 
-import ScreenEgg from "../ScreenEgg";
+import SideBar from "../SideBar";
 import styles from "./index.module.scss";
 
-const BuyMeCoffee = ({ className }) => {
+const MyGithub = ({ className }) => {
   return (
-    <ScreenEgg type="right">
+    <SideBar type="right">
       <div className={cl(className, styles.buyCoffee)}>
         <a
-          href="https://buy.stripe.com"
+          href="https://github.com/mirich90"
           target="_blank"
           className={styles.buyCoffeeButton}
           rel="noreferrer"
         >
-          Buy my coffee...
+          Мой гитхаб
         </a>
       </div>
-    </ScreenEgg>
+    </SideBar>
   );
 };
 
-export default BuyMeCoffee;
+export default MyGithub;

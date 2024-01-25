@@ -4,7 +4,7 @@ import {
   Section,
   Title,
   Cover,
-  BuyMeCoffee,
+  MyGithub,
   SocialNetworks,
   PostGrid,
   Post,
@@ -48,12 +48,12 @@ export default function Home({ initialPosts, total }) {
         <title>Blog</title>
       </Head>
       <Section>
-        <Cover title="Indy<br />Ground" />
+        <Cover title="Next.js<br />блог" />
         <SocialNetworks />
-        <BuyMeCoffee />
+        <MyGithub />
       </Section>
       <Section>
-        <Title>Last posts</Title>
+        <Title>Последние посты</Title>
         <PostGrid>
           {posts.map((post) => (
             <Post key={post.slug.current} {...post} />
@@ -63,7 +63,7 @@ export default function Home({ initialPosts, total }) {
         {isLoadButton && (
           <div style={{ display: "flex", justifyContent: "center" }}>
             <Button onClick={getMorePosts} disabled={loading}>
-              Load more posts...
+              Загрузить еще посты...
             </Button>
           </div>
         )}

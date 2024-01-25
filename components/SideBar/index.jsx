@@ -3,13 +3,13 @@ import cl from "classnames";
 
 import styles from "./index.module.scss";
 
-const ScreenEgg = ({ className, type, children }) => {
+const SideBar = ({ className, type, children }) => {
   return (
     <div
       className={cl(
         className,
-        styles.screenEgg,
-        type === "right" ? styles.screenEggRight : styles.screenEggLeft
+        styles.sideBar,
+        type === "right" ? styles.sideBarRight : styles.sideBarLeft
       )}
     >
       {children}
@@ -17,4 +17,4 @@ const ScreenEgg = ({ className, type, children }) => {
   );
 };
 
-export default ScreenEgg;
+export default SideBar;

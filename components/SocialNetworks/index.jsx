@@ -7,7 +7,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 
-import ScreenEgg from "../ScreenEgg";
+import SideBar from "../SideBar";
 
 import styles from "./index.module.scss";
 
@@ -36,7 +36,7 @@ const socialNetworks = [
 
 const SocialNetworks = ({ className }) => {
   return (
-    <ScreenEgg type="left">
+    <SideBar type="left">
       <ul className={cl(className, styles.list)}>
         {socialNetworks.map((socialNetwork) => (
           <li key={socialNetwork.id} className={styles.listItem}>
@@ -54,7 +54,7 @@ const SocialNetworks = ({ className }) => {
           </li>
         ))}
       </ul>
-    </ScreenEgg>
+    </SideBar>
   );
 };
 

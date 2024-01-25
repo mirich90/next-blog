@@ -1,6 +1,6 @@
 .content {
-  font-size: 1rem;
-  line-height: 1.4;
+  font-size: 1.3rem;
+  line-height: 1.7;
 
   p,
   h2,
@@ -61,7 +61,7 @@
 
   blockquote {
     margin-left: 1em;
-    border-left: #ffde7d solid 4px;
+    border-left: var(--primary) solid 4px;
     padding-left: 1em;
   }
 }
