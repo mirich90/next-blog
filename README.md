@@ -5,6 +5,12 @@
 - Написание статей администратором через панель sanity
 - Frontend на nextJs для взаимодействия с API sanity
 
+## Демо
+
+https://next-blog-phi-neon.vercel.app/
+
+## Превью
+
 ### Главная страница сайта:
 
 ![Alt-текст](https://github.com/mirich90/next-blog/blob/main/1.PNG?raw=true "Блог-платформа")
